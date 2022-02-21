@@ -11,9 +11,27 @@ GitHub. HW_2
 2. Запушить все ветки на внешний репозиторий
 * `git push -u origin --all`
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+* `git checkout Bug_Reports`
+* `cat > bug_report_1.txt`
+    + Bug Title
+    + Bug ID
+    + Build number
+    + Environment
+    + Severity
+    + Priority
+    + Assigned to
+    + Reported by
+    + Reported on
+    + Type
+    + Status 
+* `Enter`
+* `Ctrl + D`
 4. Запушить структуру багрепорта на внешний репозиторий
+* `git add .` ; `git commit -m 'add bug_report_1.txt'` ; `git push`
 5. Вмержить ветку Bag Reports в Main
+* `git checkout main`; `git merge Bug_Reports`
 6. Запушить main на внешний репозиторий.
+`git add .` ; `git commit -m 'merge Bug_Rep to main'` ; `git push` 
 7. В ветке CheckLists набросать структуру чек листа.
 8. Запушить структуру на внешний репозиторий
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
