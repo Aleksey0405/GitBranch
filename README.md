@@ -1,14 +1,13 @@
-###GitHub. HW_2
+GitHub. HW_2
 1. На локальном репозитории сделать ветки для:
+- Postman
+- Jmeter
+- CheckLists
+- Bug Reports
+- SQL
+- Charles
+- Mobile testing
 `git branch` Postman; `git branch` Jmeter; `git branch` CheckLists; `git branch` Bug_Reports; `git branch` SQL; `git branch` Charles; `git branch` Mobile_Testing
-* Postman 
-* Jmeter 
-* CheckLists
-* Bag Reports 
-* SQL
-* Charles
-* Mobile testing 
-
 2. Запушить все ветки на внешний репозиторий
 * `git push -u origin --all`
 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
